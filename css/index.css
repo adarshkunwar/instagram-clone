@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: none;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.login-section{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* left */
+.overlay {
+    position: absolute;
+    margin-left: -309px;
+    top: 60px;
+    z-index: 1;
+}
+
+/* right - start*/
+.right {
+    width: 350px;
+    padding: 10px 40px;
+}
+
+/* logo - start */
+.logo {
+    padding: 40px 0
+}
+
+/* logo-end */
+
+/* form-start */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form input {
+    padding: 10px;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.form input[type=submit] {
+    background-color: #b2dffc;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+/* or section starts here */
+.line {
+    margin-top: 24px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.line p {
+    padding: 0 20px;
+    font-size: 13px;
+}
+
+.straight-line {
+    border: 1px solid #777;
+    width: 100%;
+}
+
+
+/* or secion ends here */
+
+/* facebook signin starts here */
+
+.facebook {
+    margin-top: 26px;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    color: #385689;
+    justify-content: center;
+    font-size: 14px;
+}
+
+/* facebook signin ends here */
+
+
+
+/* forget password starts here */
+
+.forget-password {
+    padding: 15px 0;
+    color: #00376b;
+    font-size: 12px;
+}
+/* forget password ends here */
+
+
+/* right-top ends here */
+
+/* sign up starts here */
+
+.signup {
+    margin: 10px 0;
+    padding: 20px 60px;
+}
+
+.signup span{
+    color: #0095f6;
+}
+
+/* sign up ends here */
+
+
+/* get-the-app starts here */
+
+.get-the-app {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-the-app-div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.get-the-app-div img {
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+

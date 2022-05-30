@@ -1,0 +1,91 @@
+html, body{
+    background-color: #fafafa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: fit-content;
+    place-items: center;
+
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1.5em;
+}
+
+.left {
+    background-image: url(../resources/1dc085cdb87d.png);
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.left img{
+    margin-left: 150px;
+    margin-top: 26px;
+}
+
+.right{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.logo{
+    margin: 48px 88px;
+}
+
+.input input{
+    margin: 4px 41px;
+    width: 250px;
+    height: 20px;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line p{
+    position: relative;
+    padding: 0 18px;
+    
+}
+
+hr{
+    margin-top: 10px;
+    width: 100px;
+    border: 1px solid red;
+    
+}
+
+
+.login{
+    margin-top: 15px;
+    background-color: #b2dffc;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+.download-app{
+    width: 135px;
+    height: 40px;
+}
